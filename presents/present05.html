@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advent Calendar - Day 5 Present</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/present.css">
+
+</head>
+<body>
+
+<div class="present-container">
+
+    <h1>Day 5!</h1>
+
+    <!-- Optional: Description or message -->
+    <p>Welcome to Day 5 of our Advent Calendar!</p>
+
+    <!-- Dynamic Text Content -->
+    <p id="specialMessage"></p>
+
+    <!-- Dynamic Image Content -->
+    <img id="presentImage" alt="Day 5 Present" class="present-image">
+
+    <!-- Back Link to Main Page -->
+    <a href="../index.html" class="back-link">Back to Calendar</a>
+
+</div>
+
+<script>
+    var today = new Date();
+    var releaseDay = new Date(today.getFullYear(), 11, 5); // December 5nd
+
+    var messageElement = document.getElementById('specialMessage');
+    var imgElement = document.getElementById('presentImage');
+
+    if (today >= releaseDay) {
+        messageElement.textContent = "Here's your special surprise.";
+        imgElement.src = '../images/present05.jpeg';
+    } else {
+        messageElement.textContent = "Sorry, it's not Day 5 yet.";
+        imgElement.src = '../images/nopresent.png';
+    }
+</script>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
