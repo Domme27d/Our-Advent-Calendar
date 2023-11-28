@@ -28,7 +28,11 @@
     /* Other styles as needed */
 }
 
-#day1 {
+.highlight-border {
+    border: 2px solid red; /* Style for the red border */
+}
+
+#day01 {
     top: 77.5%;  /* Adjust as needed */
     left: 9%; /* Adjust as needed */
     width: 6%;
@@ -36,7 +40,7 @@
     /* specific size and location for day 1 link */
 }
 
-#day2 {
+#day02 {
     top: 53%;  /* Adjust as needed */
     left: 38%; /* Adjust as needed */
     width: 5%;
@@ -44,7 +48,7 @@
     /* specific size and location for day 2 link */
 }
 
-#day3 {
+#day03 {
     top: 50%;  /* Adjust as needed */
     left: 46%; /* Adjust as needed */
     width: 6%;
@@ -52,7 +56,7 @@
     /* specific size and location for day 3 link */
 }
 
-#day4 {
+#day04 {
     top: 25%;  /* Adjust as needed */
     left: 72%; /* Adjust as needed */
     width: 4%;
@@ -60,7 +64,7 @@
     /* specific size and location for day 4 link */
 }
 
-#day5 {
+#day05 {
     top: 42.6%;  /* Adjust as needed */
     left: 40%; /* Adjust as needed */
     width: 5%;
@@ -68,7 +72,7 @@
     /* specific size and location for day 5 link */
 }
 
-#day6 {
+#day06 {
     top: 13%;  /* Adjust as needed */
     left: 69%; /* Adjust as needed */
     width: 4.7%;
@@ -76,7 +80,7 @@
     /* specific size and location for day 6 link */
 }
 
-#day7 {
+#day07 {
     top: 30%;  /* Adjust as needed */
     left: 57%; /* Adjust as needed */
     width: 5%;
@@ -84,7 +88,7 @@
     /* specific size and location for day 7 link */
 }
 
-#day8 {
+#day08 {
     top: 69%;  /* Adjust as needed */
     left: 32%; /* Adjust as needed */
     width: 4%;
@@ -92,7 +96,7 @@
     /* specific size and location for day 8 link */
 }
 
-#day9 {
+#day09 {
     top: 24%;  /* Adjust as needed */
     left: 66%; /* Adjust as needed */
     width: 5.5%;
