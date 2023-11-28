@@ -1,0 +1,25 @@
+body {
+    background-color: #2486A0; /* Set the entire page background to blue */
+    color: white; /* Change the text color for better contrast */
+    font-family: Arial, sans-serif; /* Set a default font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.full-page-link {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits text color from parent elements */
+    display: block; /* Ensures the link doesn't affect internal layout */
+}
+
+.back-link {
+    display: block; /* Makes the link a block-level element */
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    position: fixed; /* Fixes the link to a specific spot in the viewport */
+    top: 10px; /* Distance from the top of the viewport */
+    right: 10px; /* Distance from the right of the viewport */
+}

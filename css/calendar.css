@@ -1,0 +1,221 @@
+.calendar-container {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.calendar-image-container {
+    position: relative;
+    display: inline-block; /* Or as per your design requirement */
+}
+
+.calendar-image {
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+.day-link {
+    position: absolute;
+    width: 5%; /* Adjust as needed */
+    height: 5%; /* Adjust as needed */
+    /* Individual positioning for each day-link */
+    /*border: 2px solid red; /* Red border for visibility */
+    box-sizing: border-box; */    
+    /* Ensures the border is included in width/height calculations */
+    /* Other styles as needed */
+}
+
+#day1 {
+    top: 77.5%;  /* Adjust as needed */
+    left: 9%; /* Adjust as needed */
+    width: 6%;
+    height: 15%;
+    /* specific size and location for day 1 link */
+}
+
+#day2 {
+    top: 53%;  /* Adjust as needed */
+    left: 38%; /* Adjust as needed */
+    width: 5%;
+    height: 6%;
+    /* specific size and location for day 2 link */
+}
+
+#day3 {
+    top: 50%;  /* Adjust as needed */
+    left: 46%; /* Adjust as needed */
+    width: 6%;
+    height: 9%;
+    /* specific size and location for day 3 link */
+}
+
+#day4 {
+    top: 25%;  /* Adjust as needed */
+    left: 72%; /* Adjust as needed */
+    width: 4%;
+    height: 10%;
+    /* specific size and location for day 4 link */
+}
+
+#day5 {
+    top: 42.6%;  /* Adjust as needed */
+    left: 40%; /* Adjust as needed */
+    width: 5%;
+    height: 7.7%;
+    /* specific size and location for day 5 link */
+}
+
+#day6 {
+    top: 13%;  /* Adjust as needed */
+    left: 69%; /* Adjust as needed */
+    width: 4.7%;
+    height: 7%;
+    /* specific size and location for day 6 link */
+}
+
+#day7 {
+    top: 30%;  /* Adjust as needed */
+    left: 57%; /* Adjust as needed */
+    width: 5%;
+    height: 8%;
+    /* specific size and location for day 7 link */
+}
+
+#day8 {
+    top: 69%;  /* Adjust as needed */
+    left: 32%; /* Adjust as needed */
+    width: 4%;
+    height: 10%;
+    /* specific size and location for day 8 link */
+}
+
+#day9 {
+    top: 24%;  /* Adjust as needed */
+    left: 66%; /* Adjust as needed */
+    width: 5.5%;
+    height: 9%;
+    /* specific size and location for day 9 link */
+}
+
+#day10 {
+    top: 47%;  /* Adjust as needed */
+    left: 56.3%; /* Adjust as needed */
+    width: 3.5%;
+    height: 8%;
+    /* specific size and location for day 10 link */
+}
+
+#day11 {
+    top: 63%;  /* Adjust as needed */
+    left: 13%; /* Adjust as needed */
+    width: 6%;
+    height: 13%;
+    /* specific size and location for day 11 link */
+}
+
+#day12 {
+    top: 18%;  /* Adjust as needed */
+    left: 58%; /* Adjust as needed */
+    width: 4%;
+    height: 9%;
+    /* specific size and location for day 12 link */
+}
+
+#day13 {
+    top: 51%;  /* Adjust as needed */
+    left: 25%; /* Adjust as needed */
+    width: 6%;
+    height: 7%;
+    /* specific size and location for day 13 link */
+}
+
+#day14 {
+    top: 42%;  /* Adjust as needed */
+    left: 52.4%; /* Adjust as needed */
+    width: 3.5%;
+    height: 10%;
+    /* specific size and location for day 14 link */
+}
+
+#day15 {
+    top: 18%;  /* Adjust as needed */
+    left: 78%; /* Adjust as needed */
+    width: 5%;
+    height: 11%;
+    /* specific size and location for day 15 link */
+}
+
+#day16 {
+    top: 8%;  /* Adjust as needed */
+    left: 75%; /* Adjust as needed */
+    width: 6.5%;
+    height: 9%;
+    /* specific size and location for day 16 link */
+}
+
+#day17 {
+    top: 59%;  /* Adjust as needed */
+    left: 27%; /* Adjust as needed */
+    width: 5.5%;
+    height: 9.7%;
+    /* specific size and location for day 17 link */
+}
+
+#day18 {
+    top: 41%;  /* Adjust as needed */
+    left: 47%; /* Adjust as needed */
+    width: 5%;
+    height: 7.3%;
+    /* specific size and location for day 18 link */
+}
+
+#day19 {
+    top: 59.5%;  /* Adjust as needed */
+    left: 36.3%; /* Adjust as needed */
+    width: 3.5%;
+    height: 9%;
+    /* specific size and location for day 19 link */
+}
+
+#day20 {
+    top: 35%;  /* Adjust as needed */
+    left: 42%; /* Adjust as needed */
+    width: 4.5%;
+    height: 6%;
+    /* specific size and location for day 20 link */
+}
+
+#day21 {
+    top: 19%;  /* Adjust as needed */
+    left: 62.4%; /* Adjust as needed */
+    width: 3.3%;
+    height: 10%;
+    /* specific size and location for day 21 link */
+}
+
+#day22 {
+    top: 70%;  /* Adjust as needed */
+    left: 20%; /* Adjust as needed */
+    width: 7%;
+    height: 8%;
+    /* specific size and location for day 22 link */
+}
+
+#day23 {
+    top: 24%;  /* Adjust as needed */
+    left: 51%; /* Adjust as needed */
+    width: 5%;
+    height: 7%;
+    /* specific size and location for day 23 link */
+}
+
+#day24 {
+    top: 7.5%;  /* Adjust as needed */
+    left: 64.5%; /* Adjust as needed */
+    width: 5%;
+    height: 6%;
+    /* specific size and location for day 24 link */
+}
